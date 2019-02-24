@@ -55,10 +55,10 @@ public class Base {
             //driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("chrome")) {
             if (os.equalsIgnoreCase("windows")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\sideeg\\Desktop\\Amazon\\Generic\\src\\main\\driver\\chromedriver.exe\\");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Eltayeb\\Documents\\GitHub\\Cyberboolean-Project\\Craiglist\\Generic\\src\\main\\driver\\chromedriver.exe\\");
 
             } else {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\sideeg\\Desktop\\Amazon\\Generic\\src\\main\\driver\\chromedriver.exe\\");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Eltayeb\\Documents\\GitHub\\Cyberboolean-Project\\Craiglist\\Generic\\src\\main\\driver\\chromedriver.exe\\");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("safari")) {

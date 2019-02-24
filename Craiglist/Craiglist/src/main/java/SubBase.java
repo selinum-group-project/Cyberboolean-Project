@@ -9,7 +9,7 @@ import java.io.IOException;
 public class SubBase extends Base {
     public String userNameFieldXPath = "#USERNAME";
     public String passwordFieldXpath = "#PASSWORD";
-    public String testDataXpath = "C:\\Users\\sideeg\\Desktop\\Craiglist\\Craiglist\\src\\test\\TestData\\LoginInfo.xlsx";
+    public String testDataXpath = "C:\\Users\\Eltayeb\\Documents\\GitHub\\Cyberboolean-Project\\Craiglist\\Craiglist\\src\\test\\TestData\\LoginInfo.xlsx";
 
     public SubBase() throws IOException {
         this.userNameFieldXPath = readFromExcel(this.testDataXpath, "Account", "B2");
